@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Quattro formaggi",
+        "price" : "50.25",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg"
+    },
+    {
+        "name" : "Quattro formaggi",
+        "price" : "40.30",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg"
+    },
+    {
+        "name" : "Quattro formaggi",
+        "price" : "10.25",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg"
+    },
+    {
+        "name" : "Quattro formaggi",
+        "price" : "20.25",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg"
+    },
+]
