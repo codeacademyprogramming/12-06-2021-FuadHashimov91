@@ -1,0 +1,30 @@
+.popular-dishes{
+    margin-top: 50px;
+    h1{
+        margin: 2em 0;
+    }
+    .product-box{
+        border: 2px solid rgb(175, 174, 174);
+        border-radius: 25px;
+        padding: 10px;
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 25px;
+            padding-left: 35px;
+        }
+        .product-name{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        p{
+            padding: 10px 0;
+            text-align: left;
+        }
+        .price{
+            display: block;
+            text-align: center;
+        }
+    }
+}
