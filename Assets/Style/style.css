@@ -1,0 +1,91 @@
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+body h1, body p {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: center;
+}
+body p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+body h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.head-bg {
+  height: 175vh;
+  background-image: url("/Assets/Images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3em;
+}
+.head-bg .navigation {
+  width: 30%;
+}
+.head-bg .navigation ul li {
+  padding-top: 2em;
+}
+.head-bg .navigation ul li a {
+  color: black;
+}
+.head-bg .info-work {
+  width: 30%;
+}
+.head-bg .info-work ul li {
+  padding-top: 2em;
+}
+.head-bg .info-site {
+  margin-top: 5em;
+}
+.head-bg .info-site p {
+  width: 90%;
+  margin: auto;
+}
+
+.popular-dishes {
+  margin-top: 50px;
+}
+.popular-dishes h1 {
+  margin: 2em 0;
+}
+.popular-dishes .product-box {
+  border: 2px solid #afaeae;
+  border-radius: 25px;
+  padding: 10px;
+}
+.popular-dishes .product-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  padding-left: 35px;
+}
+.popular-dishes .product-box .product-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.popular-dishes .product-box p {
+  padding: 10px 0;
+  text-align: left;
+}
+.popular-dishes .product-box .price {
+  display: block;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
