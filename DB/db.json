@@ -1,7 +1,31 @@
 [
     {
         "name" : "Quattro formaggi",
-        "price" : "50.25",
+        "price" : "5",
+        "size":"20",
+        "details":"Dough, Mozzarella, Cheddar, Blue, Parmesan",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg",
+        "logoAddPro":"/Assets/Images/Vector (3).png"
+    },
+    {
+        "name" : "Quattro formaggi",
+        "price" : "46",
+        "size":"20",
+        "details":"Dough, Mozzarella, Cheddar, Blue, Parmesan",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg",
+        "logoAddPro":"/Assets/Images/Vector (3).png"
+    },
+    {
+        "name" : "Quattro formaggi",
+        "price" : "12",
+        "size":"30",
+        "details":"Dough, Mozzarella, Cheddar, Blue, Parmesan",
+        "imgSrc" : "/Assets/Images/image 26 (3).jpg",
+        "logoAddPro":"/Assets/Images/Vector (3).png"
+    },
+    {
+        "name" : "Quattro formaggi",
+        "price" : "60.50",
         "size":"20",
         "details":"Dough, Mozzarella, Cheddar, Blue, Parmesan",
         "imgSrc" : "/Assets/Images/image 26 (3).jpg",
@@ -17,7 +41,7 @@
     },
     {
         "name" : "Quattro formaggi",
-        "price" : "10.25",
+        "price" : "20",
         "size":"30",
         "details":"Dough, Mozzarella, Cheddar, Blue, Parmesan",
         "imgSrc" : "/Assets/Images/image 26 (3).jpg",
@@ -25,7 +49,7 @@
     },
     {
         "name" : "Quattro formaggi",
-        "price" : "60.50",
+        "price" : "12.50",
         "size":"20",
         "details":"Dough, Mozzarella, Cheddar, Blue, Parmesan",
         "imgSrc" : "/Assets/Images/image 26 (3).jpg",
