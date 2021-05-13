@@ -133,6 +133,9 @@ body h1 {
   overflow-y: scroll;
   height: 400px;
 }
+.popular-dishes .sale-cart i {
+  font-size: 30px;
+}
 .popular-dishes .sale-cart img {
   width: 100%;
   height: auto;

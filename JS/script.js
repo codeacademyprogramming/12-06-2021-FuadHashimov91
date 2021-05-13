@@ -34,7 +34,7 @@ async function loadJson() {
             data.forEach(element => {
                 html +=
                 `
-                    <div class="col-3">
+                    <div class="col-3 mt-2 mb-5">
                         <div class="product-box">
                             <figure class="product-image">
                                 <img src="${element.imgSrc}" alt="Product Image">
@@ -130,12 +130,12 @@ function findCartInfo() {
 }
 function deleteProduct(e){
     let cart;
-    if(e.target.tagname === "BUTTON"){
-        cart = e.target.parentElement.parentElement.parentElement;
+    if(e.target.tagname == "BUTTON"){
+        cart = e.target.parentElement.parentElement;
         cart.remove();
     }
-    else if(e.target.tagname ="I"){
-        cart = e.target.parentElement.parentElement.parentElement;
+    else if(e.target.tagname = "I"){
+        cart = e.target.parentElement.parentElement.parentElement.parentElement;
         cart.remove();
     }
     let products = getProductFromStorage();
