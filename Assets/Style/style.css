@@ -136,8 +136,19 @@ body h1 {
 .popular-dishes .sale-cart .price-sel p {
   text-align: left;
 }
+.popular-dishes .sale-cart .save-product {
+  width: 100%;
+  padding: 15px 50px;
+  background: #fc4c4c;
+  color: white;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 
 footer {
+  margin-top: 10em;
   position: relative;
 }
 footer figure img {

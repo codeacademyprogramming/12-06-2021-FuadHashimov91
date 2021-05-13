@@ -14,61 +14,45 @@
 
 <body>
 
-<header class="head-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="header d-flex justify-content-between">
-                    <nav class="navigation">
-                        <ul class="d-flex justify-content-between">
-                            <li><a href="">Payment</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Contacts</a></li>
-                        </ul>
-                    </nav>
-                    <div>
-                        <a href=""><img src="./Assets/Images/logos 1.png" alt="Header Image"></a>
-                    </div>
-                    <div class="info-work">
-                        <ul class="d-flex justify-content-between">
-                            <li>Daily 11am-9pm</li>
-                            <li><i class="fas fa-phone-alt"></i> 0 800 33 08 98</li>
-                        </ul>
+    <header class="head-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header d-flex justify-content-between">
+                        <nav class="navigation">
+                            <ul class="d-flex justify-content-between">
+                                <li><a href="">Payment</a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Contacts</a></li>
+                            </ul>
+                        </nav>
+                        <div>
+                            <a href=""><img src="./Assets/Images/logos 1.png" alt="Header Image"></a>
+                        </div>
+                        <div class="info-work">
+                            <ul class="d-flex justify-content-between">
+                                <li>Daily 11am-9pm</li>
+                                <li><i class="fas fa-phone-alt"></i> 0 800 33 08 98</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="offset-2 col-8 info-site">
-                <h1>Food delivery in Kovel</h1>
-                <p>If you decide to relax or have unexpected guests, call us. We make sure that your vacation is
-                    comfortable, enjoyable and delicious</p>
+                <div class="offset-2 col-8 info-site">
+                    <h1>Food delivery in Kovel</h1>
+                    <p>If you decide to relax or have unexpected guests, call us. We make sure that your vacation is
+                        comfortable, enjoyable and delicious</p>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
     <main class="container mb-5">
         <section class="popular-dishes position-relative">
             <h1>Popular dishes</h1>
             <div class="shop-cart float-right">
                 <span><i class="fas fa-shopping-cart"></i></span>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    <div class="product-box">
-                        <figure>
-                            <img src="./Assets/Images/image 26 (3).jpg" alt="Product Image">
-                        </figure>
-                        <div class="product-name">
-                            <span>Quattro formaggi</span>
-                            <span>Size 30</span>
-                        </div>
-                        <p>Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
-                        <span class="price">119 UAH</span>
-                        <br>
-                        <div class="product-add">
-                            <img src="./Assets/Images/Vector (3).png" alt="Logo Sale">
-                        </div>
-                    </div>
-                </div>
+            <div class="row cart-container">
+                <!-- Products Add Here -->
             </div>
 
             <div class="sale-cart">
@@ -98,7 +82,11 @@
                     </div>
 
                 </div>
-
+                <div class="total-products d-flex justify-content-between mt-2 mb-2">
+                    <span>Subtotal <sub>(4items)</sub></span>
+                    <span>48 <sub>$</sub></span>
+                </div>
+                <button class="save-product">Checkout</button>
             </div>
         </section>
     </main>
@@ -126,6 +114,8 @@
 
 
     </footer>
+
+    <script src="./JS/script.js"></script>
 </body>
 
 </html>
