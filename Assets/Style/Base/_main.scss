@@ -3,7 +3,10 @@
     h1{
         margin: 2em 0;
     }
-    .shop-cart{
+    .shop-cart{           
+        position: absolute;
+        right: 0%;
+        top: 0;
         i{
             font-size: 30px;
             cursor: pointer;
@@ -55,11 +58,10 @@
             }
         }   
     }
-
     .sale-cart{
         // display: none;
         position: absolute;
-        top: 200px;
+        top: 50px;
         right: 0px;
         border: 2px solid rgb(175, 174, 174);
         border-radius: 25px;
@@ -67,6 +69,8 @@
         width: 40%;
         background-color: whitesmoke;
         opacity: 0.9;
+        overflow-y: scroll;
+        height: 400px;
         img{
             width: 100%;
             height: auto;
@@ -77,13 +81,12 @@
                 text-align: left;
             }
         }
-
         .save-product{
             width: 100%;
             padding: 15px 50px;
             background: rgba(252, 76, 76, 1);
             color: white;
-            border-radius: 50px;
+            border-radius: 20px;
             outline: none;
             border: none;
             cursor: pointer;
