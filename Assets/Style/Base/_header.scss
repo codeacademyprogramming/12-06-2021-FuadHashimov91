@@ -1,0 +1,31 @@
+$width-30:30%;
+.head-bg{
+    height: 70vh;
+    background-image: url("/Assets/Images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+    .navigation{
+        width: $width-30;
+        ul li{
+            padding-top: 2em;
+            
+            a{
+                color: black;
+            }
+        }
+    }
+    .info-work{
+        width: $width-30;
+        ul li{
+            padding-top: 2em;
+        }
+    }
+    .info-site{
+        margin-top: 5em;
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.popular-dishes{
+    margin-top: 50px;
+    h1{
+        margin: 2em 0;
+    }
+    .shop-cart{           
+        position: absolute;
+        right: 0%;
+        top: 0;
+        i{
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+    .product-box{
+        position: relative;
+        border: 2px solid rgb(175, 174, 174);
+        border-radius: 25px;
+        padding: 10px;
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 25px;
+            padding-left: 35px;
+        }
+        .product-name{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            span:first-child{
+                font-weight: 700;
+            }
+        }
+        p{
+            padding: 10px 0;
+            text-align: left;
+        }
+        .price{
+            display: block;
+            text-align: center;
+        }
+        .product-add{
+            width: 50px;
+            height: 50px;
+            background-color: blanchedalmond;
+            position: absolute;
+            bottom: 0px;
+            left: 30%;
+            transform: translate(50%, 50%);
+            border-radius: 50px;
+            border-bottom: 1px solid;
+            background-color: white;
+            img{
+                width: 100%;
+                height: auto;
+                padding: 15px;
+                cursor: pointer;
+            }
+        }   
+    }
+    .sale-cart{
+        // display: none;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        border: 2px solid rgb(175, 174, 174);
+        border-radius: 25px;
+        padding:40px;
+        width: 40%;
+        background-color: whitesmoke;
+        opacity: 0.9;
+        overflow-y: scroll;
+        height: 400px;
+        i{
+            font-size: 30px;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .price-sel{
+            border-bottom: 1px solid rgb(175, 174, 174);
+            p{
+                text-align: left;
+            }
+        }
+        .save-product{
+            width: 100%;
+            padding: 15px 50px;
+            background: rgba(252, 76, 76, 1);
+            color: white;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

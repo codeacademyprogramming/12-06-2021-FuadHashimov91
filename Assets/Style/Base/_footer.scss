@@ -1,0 +1,41 @@
+footer{
+    margin-top: 10em;
+    position: relative;
+    figure{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .footer{
+        position: absolute;
+        top: 35%;
+        width: 100%;
+        form{
+            width: 50%;
+            margin: auto;
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                input{
+                    width: 30%;
+                    outline: none;
+                    border: none;
+                    padding: 10px 25px;
+                    border-radius: 50px;
+                }
+                .call-btn{
+                    width: 30%;
+                    padding: 10px 25px;
+                    outline: none;
+                    border-radius: 50px;
+                    border: none;
+                    background-color: rgba(254, 86, 38, 1);
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
